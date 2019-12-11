@@ -1,0 +1,5 @@
+# UDEV Rules for Black Magic Probe (STM32 Blue Pill)
+# copy this file to /etc/udev/rules.d/50-black-magic-blue-pill.rules
+# reload rules:
+#   $ sudo udevadm control --reload-rules && sudo udevadm trigger
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1d50", ATTRS{idProduct}=="6018", GROUP="plugdev", MODE="0666"
