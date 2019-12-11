@@ -1,5 +1,5 @@
 # Blue Pill as Black Magic Probe
-Blue Pill is a very good universal development board. Now is JTAG/SWD and virtual COM port!
+[Blue Pill](BluePill_wiki.pdf) is a very good universal development board. Now is JTAG/SWD and virtual COM port!
 Is it very easy. (original instructions is here https://stm32duinoforum.com/forum/viewtopic_f_37_t_2801.html) 
 
 ## Step 1:
