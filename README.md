@@ -10,7 +10,9 @@ Is it very easy. (original instructions is here https://stm32duinoforum.com/foru
 3. Set BOOT0 jumper on the board to 1 and press reset.
 4. Open Terminal and run (*USB-serial converter is on /dev/ttyUSB0*)
 
-```sudo python ./Blue-Pill_as_Black-Magic-Probe/stm32loader.py -p /dev/ttyUSB0 -e -w -v -g 0x0 ./Blue-Pill_as_Black-Magic-Probe/blackmagic.bin```
+```
+ sudo python ./Blue-Pill_as_Black-Magic-Probe/stm32loader.py -p /dev/ttyUSB0 -e -w -v -g 0x0 ./Blue-Pill_as_Black-Magic-Probe/blackmagic.bin
+```
 
 5. Now you view
 
