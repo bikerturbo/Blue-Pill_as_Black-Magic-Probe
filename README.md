@@ -34,7 +34,7 @@ Is it very easy. (original instructions is here https://stm32duinoforum.com/foru
 ```
 
 6. Disconnect the USB-serial converter and set BOOT0 jumper on the board to 0.
-7. Copy this [file](50-black-magic-blue-pill.rules) (it's driver for BMC) to /etc/udev/rules.d/ and restart the system.
+7. Copy this [file](50-black-magic-blue-pill.rules) (it's driver for BMP) to /etc/udev/rules.d/ and restart the system.
 
 **That is all. Congratulations. Now you have JTAG/SWD and virtual COM port!**
 
