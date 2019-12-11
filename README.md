@@ -1,6 +1,8 @@
 # Blue Pill as Black Magic Probe
 [Blue Pill](BluePill_wiki.pdf) is a very good universal development board. Now is JTAG/SWD and virtual COM port!
-Is it very easy. (original instructions is here https://stm32duinoforum.com/forum/viewtopic_f_37_t_2801.html) 
+Is it very easy. (original instructions is here https://stm32duinoforum.com/forum/viewtopic_f_37_t_2801.html).
+
+*Note: You must have Python installed.*
 
 ## Step 1:
 Connect your Blue Pill with a USB-to-Serial Converter ([view here](connection2bluepill.jpg)). Set BOOT0 jumper on the board to 1 and press reset.
