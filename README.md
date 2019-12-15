@@ -1,6 +1,7 @@
 # Blue Pill as Black Magic Probe
 [Blue Pill](BluePill_wiki.pdf) is a very good universal development board. Now is JTAG/SWD and virtual COM port!
 Is it very easy.
+
 Original instructions is here https://stm32duinoforum.com/forum/viewtopic_f_37_t_2801.html (firmware [blackmagicprobe.bin](blackmagicprobe.bin)) and here https://github.com/TamojitSaha/STM32f103_Black-Magic-Probe (firmware [bmp.bin](bmp.bin)).
 
 *Note: You must have Python installed on your favorite linux OS ;-)*
